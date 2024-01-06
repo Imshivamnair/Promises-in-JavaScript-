@@ -34,11 +34,12 @@ asyncOperation()
     console.error("Error:", error); // Handle the rejected state
   });
 
-  In this example:
+In this example:
 
-asyncOperation returns a Promise.
-The resolve function is called if the operation is successful.
-The reject function is called if the operation fails.
-The .then() method is used to handle the fulfilled state.
-The .catch() method is used to handle the rejected state.
+1. AsyncOperation returns a Promise.
+2. The resolve function is called if the operation is successful.
+3. The reject function is called if the operation fails.
+4. The .then() method is used to handle the fulfilled state.
+5. The .catch() method is used to handle the rejected state.
+
 Promises provide a cleaner way to handle asynchronous code compared to callbacks, especially when dealing with multiple asynchronous operations. They are a fundamental concept in modern JavaScript, and many APIs and libraries use them for asynchronous tasks.
